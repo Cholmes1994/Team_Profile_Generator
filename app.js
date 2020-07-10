@@ -35,9 +35,11 @@ let managerBuild = function() {
             {
                 type: "input",
                 name: "officeNumber",
-                message: "What is the manager,s office number?"
+                message: "What is the managers office number?"
             }
         ]) 
+    }
+    managerBuild()
 // and to create objects for each team member (using the correct classes as blueprints!)
 
 // After the user has input all employees desired, call the `render` function (required
